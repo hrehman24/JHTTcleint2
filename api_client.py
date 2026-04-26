@@ -6,7 +6,7 @@ class BeatifyClient:
     # Artist resource request methods via requests.Session()
     def __init__(self, base_url=None, aux_url=None, timeout=10):
         self.base_url = (base_url or "http://130.162.240.153:5000").rstrip("/")
-        self.aux_url = (aux_url or "http://localhost:7000").rstrip("/")
+        self.aux_url = (aux_url or "https://jhttclient.onrender.com/").rstrip("/")
         self.timeout = timeout
         self.session = requests.Session()
 
