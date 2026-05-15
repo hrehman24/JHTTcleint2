@@ -692,7 +692,7 @@ def show_recommendations(client):
 
 
 if "base_url" not in st.session_state:
-    st.session_state["base_url"] = os.getenv("CORE_API_URL", "http://130.162.240.153:5000")
+    st.session_state["base_url"] = os.getenv("CORE_API_URL", "https://jhtt-api.onrender.com")
 if "aux_url" not in st.session_state:
     st.session_state["aux_url"] = os.getenv("AUX_API_URL", "https://jhttclient.onrender.com/")
 

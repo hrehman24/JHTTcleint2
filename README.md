@@ -4,7 +4,7 @@
 
 This Streamlit client consumes:
 
-- Core Beatify API: `http://130.162.240.153:5000/Beatify/api/v1`
+- Core Beatify API: `https://jhtt-api.onrender.com/Beatify/api/v1`
 - Auxiliary service API: `https://jhttclient.onrender.com/`
 
 The UI is organized into three navigation areas:
